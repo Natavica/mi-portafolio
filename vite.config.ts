@@ -8,6 +8,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  base: "https://natavica.github.io/portafolio-web",
   plugins: [react()],
   resolve: {
     alias: {
